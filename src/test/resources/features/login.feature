@@ -12,7 +12,7 @@ Feature: Sign In
   Scenario: Sign In with valid credential
     When I enter username as "admin"
     And I enter password as "password"
-    And click on login button
+    And click on login buttons
     Then I sould see application homepage
     And I sould see administrator text message on home Page
 
