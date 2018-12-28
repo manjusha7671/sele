@@ -16,8 +16,7 @@ public class LoginStepDefinition extends TestBase {
 	@Given("^Iam on the Login page URL \"([^\"]*)\"$")
 	public void iam_on_the_Login_page_URL(String url) throws Throwable {
 		driver.get(url);
-		//comment
-		System.out.println("hiiivvv");
+		Thread.sleep(2000);
 	}
 
 	@And("^I click on the signIn button$")
