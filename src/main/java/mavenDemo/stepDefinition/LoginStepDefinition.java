@@ -17,6 +17,7 @@ public class LoginStepDefinition extends TestBase {
 	public void iam_on_the_Login_page_URL(String url) throws Throwable {
 		driver.get(url);
 		//comment
+		System.out.println("hiiivvv");
 	}
 
 	@And("^I click on the signIn button$")
